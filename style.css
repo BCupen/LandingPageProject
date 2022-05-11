@@ -62,3 +62,36 @@ a{
     height:auto;
 }
 
+.section2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.stinkee-content{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 18px;
+    color: grey;
+}
+
+.stinkee-content div{
+    max-width: 200px;
+}
+
+.stinkee-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 0px;
+}
+
